@@ -3,7 +3,7 @@
   <channel>
       <title> on Rafael Azevedo </title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>https://rafael-azevedo.github.io/</link>
+    <link>http://rafael-azevedo.github.io/</link>
     <language>en-us</language>
     
     
@@ -11,10 +11,10 @@
     
     <item>
       <title>Who Am I ?</title>
-      <link>https://rafael-azevedo.github.io/pages/aboutme/</link>
+      <link>http://rafael-azevedo.github.io/pages/aboutme/</link>
       <pubDate>Mon, 27 Jun 2016 04:31:10 EDT</pubDate>
       
-      <guid>https://rafael-azevedo.github.io/pages/aboutme/</guid>
+      <guid>http://rafael-azevedo.github.io/pages/aboutme/</guid>
       <description>
 
 &lt;h3 id=&#34;i-am-a-professional-problem-solver&#34;&gt;I am a professional problem solver.&lt;/h3&gt;
