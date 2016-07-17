@@ -7,19 +7,121 @@
     <language>en-us</language>
     
     
-    <updated>Mon, 27 Jun 2016 04:31:10 EDT</updated>
+    <updated>Sat, 16 Jul 2016 19:23:46 MDT</updated>
+    
+    <item>
+      <title>Rafael B. Azevedo</title>
+      <link>https://rafael-azevedo.github.io/pages/cv/</link>
+      <pubDate>Sat, 16 Jul 2016 19:23:46 MDT</pubDate>
+      
+      <guid>https://rafael-azevedo.github.io/pages/cv/</guid>
+      <description>
+
+&lt;hr /&gt;
+
+&lt;p&gt;Website: rafaelazevedo.me&lt;br /&gt;
+E-mail: mail@rafaelazevedo.me&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;work-experience&#34;&gt;Work Experience&lt;/h3&gt;
+
+&lt;h5 id=&#34;senior-technical-analyst-site-reliability-engineering-staples-inc-framingham-ma-jan-16-present&#34;&gt;Senior Technical Analyst Site Reliability Engineering: Staples Inc, Framingham, MA Jan &amp;lsquo;16 - Present&lt;/h5&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Working on a high visibility project designing a new monitoring solution for the enterprise using open source software written in GO&lt;/li&gt;
+&lt;li&gt;Wrote web services in GO to automate legacy monitoring workflows such as putting monitored systems into outage mode during maintenance periods.&lt;/li&gt;
+&lt;li&gt;Designing architecture and deployment of the new software agents for scaling with the demands of our dynamic environment
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&#34;technical-analyst-tools-and-engineering-staples-inc-framingham-ma-sept-14-jan-16&#34;&gt;Technical Analyst Tools and Engineering: Staples Inc, Framingham, MA Sept &amp;lsquo;14 - Jan 16&lt;/h5&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Implemented, maintained, and supported monitoring solutions across the enterprise for various OSes (redhat, windows server, hpux, aix, and solaris) and technologies&lt;/li&gt;
+&lt;li&gt;Worked on scaling our environment to support 10,000+ systems that are currently deployed through our internal cloud, but with the ability to scale as necessary with future deployments&lt;/li&gt;
+&lt;li&gt;Lead Project that automated our service request process to reduce implementation time and reduce the amount of human interaction necessary in the process.&lt;/li&gt;
+&lt;li&gt;Worked as part of an effort to facilitate a datacenter migration from Marlboro, MA to Boulder, CO&lt;/li&gt;
+&lt;li&gt;Wrote process monitoring solution in perl. The solution includes an option to put the server in maintenance just for a particular process to avoid alerting while work is being done with a particular service, while allowing for the rest of the server to continue to be monitored&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&#34;junior-systems-administrator-teamlogic-it-woburn-ma-may-13-sept-14&#34;&gt;Junior Systems Administrator: TeamLogic It, Woburn, MA May ‘13 - Sept &amp;lsquo;14&lt;/h5&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Troubleshot and resolved issues with users across a variety of software&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Implemented networking and server solutions for small businesses&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Maintained clients’ servers&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Provided technology solutions on a per client basis&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Implemented backup and recovery solutions&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Maintained backups on and offsite for client&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&#34;it-consultant-office-of-information-technology-university-of-massachusetts-amherst-jan-10-may-13&#34;&gt;IT Consultant: Office of Information Technology, University of Massachusetts Amherst Jan ‘10 - May ‘13&lt;/h5&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Diagnosed and repaired software and hardware issues in student, faculty, and university owned computers&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Provided customer service by assessing the problem and explaining procedure&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Worked with clients to ensure that they understood their options and were satisfied with their results&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Trained new staff on office procedures and computer repair&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Instructed clients on how to use supported software&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Documented help desk tickets and resolution&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;skills-and-proficiencies&#34;&gt;Skills and Proficiencies&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Completed Ardan Labs onsite training in GO with William Kennedy&lt;/li&gt;
+&lt;li&gt;Monitoring Tools - HPOM, Sitescope, Keynote, Dynatrace, Intel Snap, Grafana, Tealeaf&lt;/li&gt;
+&lt;li&gt;Go&lt;/li&gt;
+&lt;li&gt;Rest API Design&lt;/li&gt;
+&lt;li&gt;Bash&lt;/li&gt;
+&lt;li&gt;Distributed Systems&lt;/li&gt;
+&lt;li&gt;Git&lt;/li&gt;
+&lt;li&gt;Project Management&lt;/li&gt;
+&lt;li&gt;Jira&lt;/li&gt;
+&lt;li&gt;Confluence&lt;/li&gt;
+&lt;li&gt;Service Now&lt;/li&gt;
+&lt;li&gt;Citrix management&lt;/li&gt;
+&lt;li&gt;Exchange servers management&lt;/li&gt;
+&lt;li&gt;Active directory servers management&lt;/li&gt;
+&lt;li&gt;Virtualization&lt;/li&gt;
+&lt;li&gt;Network troubleshooting&lt;/li&gt;
+&lt;li&gt;Terminal services&lt;/li&gt;
+&lt;li&gt;OSX, windows server, and Linux server troubleshooting, configuration, and management&lt;/li&gt;
+&lt;li&gt;Fluent in Portuguese
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;activities-community-service&#34;&gt;Activities/Community Service&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Built custom keyboard from scratch using microcontrollers&lt;/li&gt;
+&lt;li&gt;Wrote a personal website in Go using Hugo with its own domain and email services www.rafaelaz&lt;/li&gt;
+&lt;li&gt;Frequent Monthly meetup in the go programming language in Cambridge&lt;/li&gt;
+&lt;li&gt;Worked with local religious establishments to coordinate Brazilian community events such as a yearly health drive and meet and greets with local elected officials&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Completed basic legal paperwork for Peabody’s Brazilian community in conjunction with the Brazilian Consulate in Boston.&lt;/li&gt;
+&lt;li&gt;Built custom computers&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;education&#34;&gt;Education&lt;/h3&gt;
+
+&lt;p&gt;University of Massachusetts Amherst&lt;br /&gt;
+Bachelor of Arts in Sociology (May 2013)&lt;br /&gt;
+Criminal Justice&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Who Am I ?</title>
       <link>https://rafael-azevedo.github.io/pages/aboutme/</link>
-      <pubDate>Mon, 27 Jun 2016 04:31:10 EDT</pubDate>
+      <pubDate>Mon, 27 Jun 2016 04:31:10 -0400</pubDate>
       
       <guid>https://rafael-azevedo.github.io/pages/aboutme/</guid>
       <description>
 
 &lt;h3 id=&#34;i-am-a-professional-problem-solver&#34;&gt;I am a professional problem solver.&lt;/h3&gt;
 
-&lt;p&gt;Currently I am working in a devops role as Senior Technical Analyst on the Site Reliability Engineering team at Staples. I am always looking to learn new and challenging ways to improve my software development skills, I spend a lot of my free time working on coding, messing with microcontrollers, and spending time with Friends and Family.&lt;/p&gt;
+&lt;p&gt;Currently I am working in a devops role as Senior Technical Analyst on the Site Reliability Engineering team at Staples. I am always looking to learn new and challenging ways to improve my software development skills, I spend a lot of my free time working on coding, hacking microcontrollers, and playing music.&lt;/p&gt;
 
 &lt;p&gt;At Staples I am involved in maintaining and improving the enterprise monitoring solutions. We are currently in the midst of developing a new enterprise wide application monitoring system using open source technologies!&lt;/p&gt;
 
@@ -27,7 +129,7 @@
 
 &lt;p&gt;&lt;strong&gt;Location: Boston, MA&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Hobbies: Programming, Keyboards, Motorcycles, Football(Soccer)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hobbies: Programming, Spending time with friends and family, Keyboards, Motorcycles, Futebol(Soccer)&lt;/strong&gt;&lt;/p&gt;
 </description>
     </item>
     
