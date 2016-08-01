@@ -7,12 +7,81 @@
     <language>en-us</language>
     
     
-    <updated>Sat, 16 Jul 2016 19:23:46 MDT</updated>
+    <updated>Mon, 01 Aug 2016 15:35:28 EDT</updated>
+    
+    <item>
+      <title>gobezerk</title>
+      <link>https://rafael-azevedo.github.io/post/gobezerk/</link>
+      <pubDate>Mon, 01 Aug 2016 15:35:28 EDT</pubDate>
+      
+      <guid>https://rafael-azevedo.github.io/post/gobezerk/</guid>
+      <description>&lt;p&gt;A Slack Bot that tells you if an intruder is at your computer using a leap motion device&lt;/p&gt;
+
+&lt;p&gt;Uses &lt;em&gt;github.com/hybridgroup/gobot/platforms/leap&lt;/em&gt; and &lt;em&gt;github.com/nlopes/slack&lt;/em&gt; to send a slack bot message to a channel when someone is at your computer.&lt;/p&gt;
+
+&lt;p&gt;Code can be found on my github &lt;a href=&#34;https://github.com/rafael-azevedo/goberzerk&#34;&gt;https://github.com/rafael-azevedo/goberzerk&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;General Setup&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This guide assumes you have Go language environment setup and you have a &lt;a href=&#34;https://www.leapmotion.com/&#34;&gt;leap motion&lt;/a&gt; device and software one your computer . If you do not please refer to this guide &lt;a href=&#34;https://golang.org/doc/install&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;To setup a quick IDE for Go development use the guide &lt;a href=&#34;https://www.wolfe.id.au/2015/03/05/using-sublime-text-for-go-development/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;You will then need to get a slack api key you can create your own channel and have up to 10 bots per channel&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Create a Slack Channel and Get an API key&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Go to Slack.com. Fill out an email and hit &lt;em&gt;Create New Team&lt;/em&gt;
+&lt;img src=&#34;https://rafael-azevedo.github.io/images/newSlack.png&#34; alt=&#34;New Slack&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;Once in your slack account hit the drop down next to your user and select &lt;em&gt;Apps &amp;amp; Integration&lt;/em&gt;
+&lt;img src=&#34;https://rafael-azevedo.github.io/images/appIntegration.png&#34; alt=&#34;New Slack&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;Search and select &lt;em&gt;Bots&lt;/em&gt;
+&lt;img src=&#34;https://rafael-azevedo.github.io/images/newBot.png&#34; alt=&#34;New Slack&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;Hit &lt;em&gt;Add Configuration&lt;/em&gt; and give your bot a unique name
+&lt;img src=&#34;https://rafael-azevedo.github.io/images/addConfiguration.png&#34; alt=&#34;New Slack&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;Click &lt;em&gt;Add bot integration&lt;/em&gt; to finish adding the integration and View settings to get its API key
+&lt;img src=&#34;https://rafael-azevedo.github.io/images/botIntegration.png&#34; alt=&#34;New Slack&#34; /&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Add the bot to a channel&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Once you have an api key and bot created go to the channel you wish to notify with the bot and add it to the channel using the following command&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;/invite @&amp;lt;your_bot_name&amp;gt;&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Configure Code&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Clone repo to a directory&lt;br /&gt;
+&lt;code&gt;git clone https://github.com/rafael-azevedo/goberzerk&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Insert your api key for the slack bot in the following line&lt;br /&gt;
+&lt;code&gt;api := slack.New(&amp;quot;SLACK API KEY&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Use the listchannels.go code to print out the channel IDs of the chat rooms. You will need the channel ID of the room you would like to send messages to&lt;br /&gt;
+&lt;code&gt;go build -i listchannels.go&lt;/code&gt; and run the binary&lt;/li&gt;
+&lt;li&gt;Use the id in the goberzerk.go channel you want to message
+&lt;img src=&#34;https://rafael-azevedo.github.io/images/listChannels.png&#34; alt=&#34;New Slack&#34; /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Run Code&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Once you have placed the api key and channel id in goberzerk.go you can build and run the code&lt;/li&gt;
+&lt;li&gt;Build the Code&lt;br /&gt;
+&lt;code&gt;go build -i goberzerk.go&lt;/code&gt;&lt;br /&gt;
+&lt;code&gt;./goberzerk.go&lt;/code&gt;
+&lt;img src=&#34;https://rafael-azevedo.github.io/images/goberzerk.png&#34; alt=&#34;New Slack&#34; /&gt;
+&lt;img src=&#34;https://rafael-azevedo.github.io/images/slackUpdate.png&#34; alt=&#34;New Slack&#34; /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Rafael B. Azevedo</title>
       <link>https://rafael-azevedo.github.io/pages/cv/</link>
-      <pubDate>Sat, 16 Jul 2016 19:23:46 MDT</pubDate>
+      <pubDate>Sat, 16 Jul 2016 19:23:46 -0600</pubDate>
       
       <guid>https://rafael-azevedo.github.io/pages/cv/</guid>
       <description>
@@ -114,7 +183,7 @@ Criminal Justice&lt;/p&gt;
     <item>
       <title>Who Am I ?</title>
       <link>https://rafael-azevedo.github.io/pages/aboutme/</link>
-      <pubDate>Mon, 27 Jun 2016 04:31:10 -0400</pubDate>
+      <pubDate>Mon, 27 Jun 2016 04:31:10 EDT</pubDate>
       
       <guid>https://rafael-azevedo.github.io/pages/aboutme/</guid>
       <description>
